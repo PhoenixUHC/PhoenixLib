@@ -5,7 +5,7 @@ import java.util.Optional;
 
 import org.bukkit.inventory.Inventory;
 
-public class ElementList extends Element {
+public class ElementList implements Element {
     private final List<ElementItem> items;
 
     public ElementList(List<ElementItem> items) {

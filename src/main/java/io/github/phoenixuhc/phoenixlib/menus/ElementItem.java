@@ -4,7 +4,7 @@ import org.bukkit.entity.HumanEntity;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
-public abstract class ElementItem extends Element {
+public abstract class ElementItem implements Element {
     private final int slot;
 
     public ElementItem(int slot) {

@@ -43,8 +43,8 @@ public abstract class Menu {
     private final HumanEntity entity;
     private final String title;
 
-    public abstract Collection<Element> elements();
     public abstract BaseComponent[] title();
+    public abstract Collection<Element> elements();
     public abstract int size();
 
     public void draw() {
