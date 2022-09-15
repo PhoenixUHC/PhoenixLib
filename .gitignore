@@ -1,0 +1,10 @@
+# Gradle
+.gradle
+build
+
+# JDT
+.classpath
+.settings
+.project
+bin/
+
