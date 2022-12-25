@@ -17,6 +17,15 @@
   (.setItemMeta it (func (.getItemMeta it)))
   it)
 
+(defn display-name
+  "Updates the display name for the given item stack."
+  ^ItemStack [^ItemStack it ^String display]
+  (apply-meta it
+              (fn [^ItemMeta im]
+                (doto im
+                  (.setDisplayName display))))
+  it)
+
 (defn glow
   "Makes the given item stack glow by adding the lure enchant and the hide enchants item flag."
   ^ItemStack [^ItemStack it]
