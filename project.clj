@@ -1,6 +1,5 @@
-(defproject phoenixlib "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+(defproject phoenixlib "0.1.0"
+  :description "Utility library for writing Minecraft plugins in Clojure"
   :license {:name "GNU GPLv3"
             :url "https://www.gnu.org/licenses/gpl-3.0.en.html"}
   :repositories [["spigotmc" "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"]
