@@ -4,6 +4,7 @@
             :url "https://www.gnu.org/licenses/gpl-3.0.en.html"}
   :repositories [["spigotmc" "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"]
                  ["snapshots" "https://oss.sonatype.org/content/repositories/snapshots"]]
+  :plugins [[lein-cljfmt "0.9.2"]]
   :dependencies [[org.clojure/clojure "1.10.1"]]
   :source-paths ["src/clojure"]
   :java-source-paths ["src/java"]
