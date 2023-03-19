@@ -9,19 +9,19 @@
   (str "§"
        (case fmt
          :black "0"
-         :dark_blue "1"
-         :dark_green "2"
-         :dark_aqua "3"
-         :dark_red "4"
-         :dark_purple "5"
+         :dark-blue "1"
+         :dark-green "2"
+         :dark-aqua "3"
+         :dark-red "4"
+         :dark-purple "5"
          :gold "6"
          :gray "7"
-         :dark_gray "8"
+         :dark-gray "8"
          :blue "9"
          :green "a"
          :aqua "b"
          :red "c"
-         :light_purple "d"
+         :light-purple "d"
          :yellow "e"
          :white "f"
          :obfuscated "k"
@@ -35,14 +35,14 @@
   ^ChatColor [fmt]
   (case fmt
     :black ChatColor/BLACK
-    :dark_blue ChatColor/DARK_BLUE
-    :dark_green ChatColor/DARK_GREEN
-    :dark_aqua ChatColor/DARK_AQUA
-    :dark_red ChatColor/DARK_RED
-    :dark_purple ChatColor/DARK_PURPLE
+    :dark-blue ChatColor/DARK_BLUE
+    :dark-green ChatColor/DARK_GREEN
+    :dark-aqua ChatColor/DARK_AQUA
+    :dark-red ChatColor/DARK_RED
+    :dark-purple ChatColor/DARK_PURPLE
     :gold ChatColor/GOLD
     :gray ChatColor/GRAY
-    :dark_gray ChatColor/DARK_GRAY
+    :dark-gray ChatColor/DARK_GRAY
     :blue ChatColor/BLUE
     :green ChatColor/GREEN
     :aqua ChatColor/AQUA
